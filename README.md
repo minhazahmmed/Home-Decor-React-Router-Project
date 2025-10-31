@@ -1,1 +1,1 @@
-# Live Link: [Home-Decor-React-Project](home-decor-project-react.netlify.app)
+# Live Link: [Home-Decor-React-Project](https://home-decor-project-react.netlify.app)
