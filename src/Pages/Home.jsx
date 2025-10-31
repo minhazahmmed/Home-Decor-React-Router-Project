@@ -5,6 +5,7 @@ import useProducts from '../Hooks/useProducts';
 
 const Home = () => {
     const [products, loading, error] = useProducts();
+    
   
     const featuredProducts = products.slice(0,6)
    
@@ -18,8 +19,11 @@ const Home = () => {
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {
             featuredProducts.map(product =>(
+                
                 <ProductCard key={product.id} product={product}></ProductCard>
+                
             )
+       
                
              )
         }
